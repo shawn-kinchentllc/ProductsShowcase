@@ -1,0 +1,17 @@
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/ProductsShowcase
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/ProductsShowcase.deps.json
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/ProductsShowcase.runtimeconfig.json
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/ProductsShowcase.dll
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/ProductsShowcase.pdb
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.AssemblyInfoInputs.cache
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.AssemblyInfo.cs
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.csproj.CoreCompileInputs.cache
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.dll
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/refint/ProductsShowcase.dll
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.pdb
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.genruntimeconfig.cache
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ref/ProductsShowcase.dll
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.csproj.AssemblyReference.cache
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/Products.6511AE1B.Up2Date
