@@ -10,9 +10,5 @@ class Program
             Console.WriteLine("No data found from call to retrieve products");
             return;
         }
-
-        
-        
     }
 }
-
