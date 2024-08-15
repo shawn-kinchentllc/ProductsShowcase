@@ -1,6 +1,4 @@
-﻿using System.Data;
-using System.Linq.Expressions;
-using ProductsShowcase;
+﻿using ProductsShowcase;
 using Helper = ProductsShowcase.Library.ProductsShowcaseHelper;
 
 class Program
