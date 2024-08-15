@@ -43,7 +43,42 @@ class Program
                 if (shouldCallApi)
                 {
                     productList = (await Helper.GetProductByIdAsync(userInput)).ToList();
-                    WriteToConsole(productList);
+                    var shouldWriteOutput = true;
+                    while (!productList.Any())
+                    {
+                        Console.WriteLine($"No Products found with ID: {userInput}");
+                        Console.WriteLine("Please enter a different Product ID or press Enter to continue");
+                        userInput = Console.ReadLine();
+                        if (string.IsNullOrWhiteSpace(userInput))
+                        {
+                            shouldWriteOutput = false;
+                            break;
+                        }
+
+                        inputIsNumeric = ValueIsInteger(userInput);
+                        while (!inputIsNumeric)
+                        {
+                            Console.WriteLine("Please enter a numeric Product ID to return a product");
+                            Console.WriteLine("Press Enter to cancel and continue");
+                            userInput = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(userInput))
+                            {
+                                shouldCallApi = false;
+                                shouldWriteOutput = false;
+                                break;
+                            }
+
+                            inputIsNumeric = ValueIsInteger(userInput);
+                        }
+
+                        if (!shouldCallApi && !shouldWriteOutput)
+                            break;
+
+                        productList = (await Helper.GetProductByIdAsync(userInput)).ToList();
+                    }
+
+                    if (shouldWriteOutput)
+                        WriteToConsole(productList);
                 }
             }
             
@@ -54,7 +89,23 @@ class Program
             if (!string.IsNullOrWhiteSpace(userInput))
             {
                 productList = (await Helper.GetProductsBySearchValueAsync(userInput)).ToList();
-                WriteToConsole(productList);
+                var shouldWriteOutput = true;
+                while (!productList.Any())
+                {
+                    Console.WriteLine("No Products found from search");
+                    Console.WriteLine("Please enter a different search value or press Enter to continue");
+                    userInput = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(userInput))
+                    {
+                        shouldWriteOutput = false;
+                        break;
+                    }
+
+                    productList = (await Helper.GetProductsBySearchValueAsync(userInput)).ToList();
+                }
+
+                if (shouldWriteOutput)
+                    WriteToConsole(productList);
             }
 
             Console.WriteLine("End of Program");
