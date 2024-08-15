@@ -16,13 +16,14 @@ Before you can run this application, make sure you have the following installed:
 If you haven't already, clone the repository to your local machine using Git:
 
 ## bash
-git clone https://github.com/shawn-kinchentllc/ProductsShowcase.git
-cd ProductsShowcase
+- git clone https://github.com/shawn-kinchentllc/ProductsShowcase.git
+- cd ProductsShowcase
 
 ### 2. Build the application
 ## console
-dotnet build
+- dotnet build
 
 ### 3. Run the application
 ## console
-dotnet run
+- cd ProductsShowcase
+- dotnet run
