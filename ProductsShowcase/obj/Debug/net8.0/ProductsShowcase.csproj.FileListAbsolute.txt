@@ -15,3 +15,4 @@
 /Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.csproj.AssemblyReference.cache
 /Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/Products.6511AE1B.Up2Date
+/Users/shawnkinch/Development/Projects/ProductsShowcase/ProductsShowcase/obj/Debug/net8.0/ProductsShowcase.sourcelink.json
